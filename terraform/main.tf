@@ -8,7 +8,7 @@ module "ecs_app" {
   health_check_path            = "/"
   fargate_cpu                  = "1024"
   fargate_memory               = "2048"
-  aws_region                   = terraform.workspace
+  aws_region                   = "ap-south-1"
   az_count                     = "2"
   subnets                      = module.network.public_subnet_ids
   sg_ecs_tasks                 = [module.security.ecs_tasks_security_group_id]
@@ -30,7 +30,7 @@ module "security" {
 module "logs" {
   source            = "./modules/logs"
   log_group_name    = "/ecs/ecs-app"
-  log_stream_name   = "ecs-log-stream"
+  log_stream_name   = "ecs"
   retention_in_days = 30
 }
 
