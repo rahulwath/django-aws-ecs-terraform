@@ -9,15 +9,8 @@
 This repository contains a pre-configured development environment for Django-based applications, enabling developers to set up a robust development environment with a single command.
 
 ## Article Link: 
-## Youtube Video URL: https://youtu.be/o22qYKDCGbU?si=mjIZoJ0Yccf2d6dY
+## https://blog.aws-devops.blog/deploy-dockerize-django-app-on-aws-ecs-fargate-using-github-actions-and-terraform?showSharer=true
 
    
-## License
-This project is licensed under MIT License, granting you the freedom to use, modify, and distribute the code.
 
-## Acknowledgements
-Special thanks to codewithmuh for creating this incredible Django Starter Kit and simplifying the development process.
-
-## Support
-<a href="https://www.buymeacoffee.com/codewithmuh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
